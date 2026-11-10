@@ -34,7 +34,7 @@ namespace JatekProjekt
                         while (reader.Read())
                         {
                             Karakter karakter = new(reader.GetInt32("Id"), reader.GetString("Nev"), reader.GetString("Osztaly"), reader.GetInt32("Szint"), reader.GetInt32("Arany"), reader.GetString("Szerver"));
-                            karakterek.Add(karakter);)
+                            karakterek.Add(karakter);
                         }
                     }
                 }
